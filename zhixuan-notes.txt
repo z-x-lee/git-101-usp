@@ -52,3 +52,11 @@ git log
 
 git log --oneline
 	shows history concisely in one line
+
+==== Git Summary so far
+==========
+
+Commit: (verb) git adds file to repository
+Commit: (noun) number of times you have committed sth
+
+Basic git workflow: make changes -> stage (git add) -> finalise (git commit)
