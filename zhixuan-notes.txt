@@ -1,0 +1,41 @@
+==== Section 1: Command Line
+=========
+
+mkdir[directory-name]
+	make new folder with [directory-name]
+
+ls
+	displays a list of files and folders in current folder
+
+cd [directory-name]
+	goes into the directory [directory-name]
+
+touch [file-extension]
+	creates a new file with name [file-extension]
+
+cat [filename]
+	displays file content
+
+pwd
+	(print working directory) displays the current working directory
+
+==== Section 2: Basic Git
+==========
+
+git init
+	initialise a new git repository
+
+git status
+	tells us the status of our working directory (cardboard box)
+	files in red: in cardboard box but not in wooden box
+	files in green: in wooden box but not in safe box
+
+git add
+	tells git to start tracking a file
+	i.e. move stuff to wooden box
+	need to add again after making changes to the file
+
+git commit -m "MESSAGE"
+	commits changes to the repository
+	i.e. move stuff from wooden box to safe box
+	the message in "" is compulsory, to tell yourself (and maybe git) why you're doing what you're doing
