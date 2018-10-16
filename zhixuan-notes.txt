@@ -25,17 +25,30 @@ pwd
 git init
 	initialise a new git repository
 
+wooden box: working directory
+cardboard box: staging area
+safe box: repository
+
 git status
-	tells us the status of our working directory (cardboard box)
-	files in red: in cardboard box but not in wooden box
-	files in green: in wooden box but not in safe box
+	tells us the status of our working directory
+	files in red: in working directory but not in staging area
+	files in green: in staging area but not in repository
 
 git add
 	tells git to start tracking a file
-	i.e. move stuff to wooden box
+	i.e. move stuff from working directory to staging area
 	need to add again after making changes to the file
 
 git commit -m "MESSAGE"
 	commits changes to the repository
-	i.e. move stuff from wooden box to safe box
+	i.e. move stuff from staging area to repository
 	the message in "" is compulsory, to tell yourself (and maybe git) why you're doing what you're doing
+
+git diff
+	shows changes between working directory, staging area and repository
+
+git log
+	shows history of changes made
+
+git log --oneline
+	shows history concisely in one line
